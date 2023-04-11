@@ -52,6 +52,30 @@ h1, h2, h3, h4, h5, h6 {
   h1, h2, h3, h4, h5, h6, p {
   font-family: Georgia;
 }
+ul, ol {
+  border: 1px solid;
+}
+
+/* Assignment 4: Combining Multiple Selectors */
+
+/* Create an HTML page with different elements such as headings, paragraphs, and images. */
+
+/* To change the font family of all headings and paragraphs inside a div with class "container", you can add the following code in your "styles.css" file: */
+
+
+.container h1, .container h2, .container h3, .container h4, .container h5, .container h6, .container p {
+  font-family: Georgia;
+}
+
+/* To change the font size of all headings inside a div with class "container" and id "header" to 28px, you can add the following code in your "styles.css" file:
+less
+ */
+
+ .container #header h1, .container #header h2, .container #header h3, .container #header h4, .container #header h5, .container #header h6 {
+  font-size: 28px;
+}
+
+
 
 
 
