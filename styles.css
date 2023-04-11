@@ -1,0 +1,58 @@
+/*Assignment 1: Basic Syntax
+
+(1) To create a CSS file named "styles.css" and link it to an HTML file, you can use the following code in the head section of your HTML document:
+
+*/
+/*(2)To change the background color of the body element to blue, you can use the following CSS rule in your "styles.css" file:*/
+
+body {
+    background-color: blue;
+  }
+  
+  /*(3)To change the font family of all headings to "Arial", you can use the following CSS rule:*/
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Arial;
+  }
+  
+  /*(4)To make the text of all p elements bold, you can use the following CSS rule:*/
+
+  p {
+    font-weight: bold;
+  }
+  
+/* Assignment 2: CSS Selectors */
+
+/* To change the color of all headings to red, you can use the following CSS rule: */
+
+h1, h2, h3, h4, h5, h6 {
+    color: red;
+  }
+  
+  /* To change the color of all paragraphs to green, you can use the following CSS rule: */
+  p {
+    color: green;
+  }
+
+  /* To change the font size of all paragraphs with class "important" to 18px, you can use the following CSS rule: */
+
+  p.important {
+    font-size: 18px;
+  }
+
+  /* To change the font weight of the paragraph with id "intro" to bold, you can use the following CSS rule: */
+
+  #intro {
+    font-weight: bold;
+  }
+
+  /* Assignment 3: Grouping Selectors */
+  /* To change the font family of all headings and paragraphs to "Georgia", you can use the following CSS rule: */
+
+  h1, h2, h3, h4, h5, h6, p {
+  font-family: Georgia;
+}
+
+
+
+    
